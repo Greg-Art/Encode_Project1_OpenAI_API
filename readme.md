@@ -22,6 +22,7 @@ Please follow the steps below to install all relevant dependencies:
 
 ## Setting Up API
 
+### Step 1: After Geeting Your API Key From Open AI 
  ```bash
    # Linux/MacOS/Bash on Windows
    export OPENAI_API_KEY="your-api-key-here"
@@ -37,7 +38,7 @@ Please follow the steps below to install all relevant dependencies:
    $env:OPENAI_API_KEY="your-api-key-here"
    ```
 
-8. Check if you have the variable set up correctly by running the following command on your terminal:
+ ### Step 2: Check if you have the variable set up correctly by running the following command on your terminal:
 
    ```bash
    # Linux/MacOS/Bash on Windows
@@ -54,7 +55,7 @@ Please follow the steps below to install all relevant dependencies:
    echo $env:OPENAI_API_KEY
    ```
 
-9. To check if the key is set up correctly without revealing your key on your terminal, you can display it partially by running the following command:
+ ### Step 3: To check if the key is set up correctly without revealing your key on your terminal, you can display it partially by running the following command:
 
    ```bash
    # Linux/MacOS/Git Bash on Windows
@@ -71,7 +72,9 @@ Please follow the steps below to install all relevant dependencies:
    echo ($env:OPENAI_API_KEY).Substring(0,3) + "..."
    ```
 
-10. Check if you have `sk-...` and not just `...`
+### Step 4: Final Check
+
+ Check if you have `sk-...` and not just `...`
 
 > For more instructions on how to complete this in different Operational Systems, go to <https://platform.openai.com/docs/quickstart/step-2-set-up-your-api-key>
 
