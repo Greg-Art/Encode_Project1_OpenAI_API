@@ -17,7 +17,7 @@ Please follow the steps below to install all relevant dependencies:
 
 - Run the following command to install the required dependencies from the requirements.txt file:
 
-- pip install -r requirements.txt
+- `pip install -r requirements.txt`
 
 Now you're ready to start cooking with Chef GPT! 🍽️
 
