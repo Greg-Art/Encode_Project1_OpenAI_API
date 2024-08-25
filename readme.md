@@ -7,14 +7,14 @@ Welcome to Chef GPT, a custom AI-powered model designed to assist with your culi
 
 Note: For requests based on ingredients, Chef GPT will suggest only dish names without providing the full recipes.
 
-# 🛠 Installation
+# 🛠 Installation and Setups
 
 ## Genral Setup
 Please follow the steps below to install all relevant dependencies:
 
 - Ensure to have an OpenAI API key from your [Playground account](https://platform.openai.com/settings/profile?tab=api-keys).
 
-- Make sure you have pip installed on your system.
+- Make sure you have `pip` installed on your system.
 
 - Run the following command to install the required dependencies from the requirements.txt file:
 
