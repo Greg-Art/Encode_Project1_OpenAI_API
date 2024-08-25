@@ -11,11 +11,13 @@ Note: For requests based on ingredients, Chef GPT will suggest only dish names w
 
 Please follow the steps below to install all relevant dependencies:
 
-Make sure you have pip installed on your system.
+- Ensure to have an OpenAI API key from your [Playground account](https://platform.openai.com/settings/profile?tab=api-keys).
 
-Run the following command to install the required dependencies from the requirements.txt file:
+- Make sure you have pip installed on your system.
 
-pip install -r requirements.txt
+- Run the following command to install the required dependencies from the requirements.txt file:
+
+- pip install -r requirements.txt
 
 Now you're ready to start cooking with Chef GPT! 🍽️
 
