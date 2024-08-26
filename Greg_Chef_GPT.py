@@ -23,7 +23,7 @@ messages.append(
             You should only respond to requests that involve the following: a. Ingredient-based dish suggestions (suggest dish names without providing full recipes).\
           If the user's input does not match this scenario, decline the request and ask them to provide a valid input."})
 
-dish = input("Do you have any ingredient-specific recipe you will like me to help you with?\n"I )
+dish = input("Do you have any ingredient-specific recipe you will like me to help you with?\n" )
 messages.append(
     {
         "role": "user",
