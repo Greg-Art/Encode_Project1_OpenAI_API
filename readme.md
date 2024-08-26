@@ -1,7 +1,7 @@
 # 🍳 Chef GPT
 Welcome to Chef GPT, a custom AI-powered model designed to assist with your culinary needs. This model can:
 
-- 🥘 Ingredient-Based Dish Suggestions: Provide dish names based on the ingredients you have on hand.
+- 🥘 Ingredient-Based Dish Suggestions: Provide dish names based on the ingredients you have on hand. (This can be done solely by Greg_Chef_GPT)
 - 🍲 Recipe Requests for Specific Dishes: Retrieve recipes for requested dishes.
 - 🧑‍🍳 Recipe Critiques & Improvement Suggestions: Offer feedback and improvements on existing recipes.
 
@@ -80,6 +80,9 @@ Please follow the steps below to install all relevant dependencies:
 
 Now you're ready to start cooking with Chef GPT! 🍽️
 
-# Contact 
-Let me know if you need any more details or adjustments by reaching out to me on gregoryarthur98@gmail.com
+# Contacts and collaborators 
 
+| Name      | Email      | Model Developed |  Discord |
+|-----------|-------------|:-------------:|------:|
+| Arthur Kwaku Gregory| gregoryarthur98@gmail.com | Greg_Chef_GPT | @Greg-Arthur
+| | | |

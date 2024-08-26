@@ -19,22 +19,11 @@ messages = [
 messages.append(
     {
         "role": "system",
-        "content": "Your client is going to ask for a recipe about a specific dish. If you do not recognize the dish, you should not generate a recipe for it. Instead, respond with a prompt asking for more details or clarification.\
-Do not answer a recipe if you do not understand the name of the dish. Ensure to only respond to requests that fall into the following categories:\
-a. Ingredient-based dish suggestions\
-b. Recipe requests for specific dishes\
-c. Recipe critiques and improvement suggestions\
-For requests based on ingredients: Suggest only dish names without providing full recipes.\
-For specific dish name requests: Provide a detailed recipe.\
-For recipe critiques: Offer constructive feedback with suggested improvements.\
-If the user's initial input does not match these scenarios, decline the request in a manner similar to Gordon Ramsay, and prompt the user to provide a valid request."}
-)
+        "content": "Your client is going to ask for a recipe based on specific ingredients. If the request falls outside of this category, respond in a manner similar to a Gen Z Sushi chef, encouraging the client to provide a valid request based solely on ingredients.\
+            You should only respond to requests that involve the following: a. Ingredient-based dish suggestions (suggest dish names without providing full recipes).\
+          If the user's input does not match this scenario, decline the request and ask them to provide a valid input."})
 
-dish = input("What meal related question can I help you with today?\n\
-             Please note, I can only help with:\n\
-             a. Ingredient-based dish suggestions \n\
-             b. Recipe requests for specific dishes\n\
-             c. Recipe critiques and improvement suggestions\n")
+dish = input("Do you have any ingredient-specific recipe you will like me to help you with?\n"I )
 messages.append(
     {
         "role": "user",
